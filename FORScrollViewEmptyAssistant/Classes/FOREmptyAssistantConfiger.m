@@ -33,7 +33,7 @@
 
 - (UIFont *)emptyTitleFont
 {
-    return _emptyTitleFont ?: [UIFont boldSystemFontOfSize:17.0f];
+    return _emptyTitleFont ?: [UIFont fontWithName:@"PingFangSC-Regular" size:15];
 }
 
 - (UIFont *)emptySubtitleFont
@@ -48,7 +48,7 @@
 
 - (UIColor *)emptyTitleColor
 {
-    return _emptyTitleColor ?: [UIColor darkGrayColor];
+    return _emptyTitleColor ?: [UIColor colorWithRed:(153)/255.0 green:(153)/255.0 blue:(153)/255.0 alpha:1];
 }
 
 - (UIColor *)emptySubtitleColor
